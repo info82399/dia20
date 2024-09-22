@@ -22,6 +22,8 @@ btnSi.addEventListener('click', function () {
         imageUrl: carpetaIMG + 'image_SI.gif',
         confirmButtonText: 'Cerrar'
     }).then((result) => {
+        document.getElementById('imagendos').hidden=false;
+        document.getElementById('mensaje2').hidden=false;
         felicidades();
         clearInterval(interval);
         sound.play()
@@ -101,3 +103,4 @@ function animate(div) {
 function random(data) {
     return data[Math.floor(Math.random() * data.length)];
 }
+

@@ -89,7 +89,15 @@ body {
     border-radius: 20px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
   }   
-
+  .imagendos {
+    width: 200px;
+    height: 200px;
+    transition: opacity 1s;
+    background-color: white;
+    border: 2px solid #6C3597; 
+    border-radius: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  }   
   .rojo {
     color: red;
   }
